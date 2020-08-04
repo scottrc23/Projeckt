@@ -1,0 +1,50 @@
+# Heading
+
+## Rhay Scott
+
+### July 6, 2020
+
+
+
+Budgeting Calculator App
+Home Budgeting Planner
+Multiple calculators in a single app
+
+Required Training/ Certification Tracker
+DOD Information Assurance Level Tracker
+Tracks input personnel who are required to maintain IA Compliance
+Input via .csv
+Input via .xlsx
+Input by hand
+You can input positions that require a cert
+Tracks standard certifications
+Retention and training recommendations
+Continuing Education Credit Deadlines
+Certification Expiration
+Output Charts for workforce percentage of completion
+Displays warnings and alerts for personnel not compliant
+
+Jeopardy-like Study Flash Game
+No subject, just a shell to input topics, questions, answers
+supports csv input
+Allows up to 4 teams
+Mode one is type-input answer
+Mode two is one person acts as host and clicks correct/ incorrect button
+A buzzer will sound
+Values for each question will go to team selected to answer
+
+
+Task Organizer - Kanban Board
+
+
+* Green
+* Eggs
+* and
+* Ham
+
+1. The
+1. Cat
+1. in
+1. the
+1. Hat
+

@@ -1,0 +1,67 @@
+# Quantico Cohort 06 Individual Applications Project
+
+## Rhay C. Scott
+
+### July 12, 2020
+
+IT Training Compliancy Tracker
+
+Background
+Throughout my career as an IT, I have encountered many companies that lacked the ability to readily quantify the quality of IT personnel in respects to training.  Some have strict guidelines from onboarding to duty requirements, however, lack a policy or mechanism that allows managers to assertain the status of personnel and their training.
+
+While attending MSSA, I would like to build an application that could be utilized as a tool that could help visualize I.T. training deficiencies and compliancy.  
+
+The application will do this by 
+
+
+Structure
+There are 4 main areas of data input for the training tracker.  Training is divided into 
+two groups - company and industry.  Company is training that is only relevant to the specific
+company and is locally produced - like onboarding, annual cyber awareness, or for DOD - annual
+operations security training.  The second type of training will be industry.  This type of 
+training is primarily outsourced.  Cisco certifications, Defense Aquisition University course
+requirements, and teaching certifications...etc.  
+
+The second main group of data input is personnel input.  This list will contain information on
+each person's billet, department, email, phone, and other details that will help track the 
+employee.  I would like to build an automated system that alerts employees of delinquent training
+via email.
+
+The third main group of data input is Company and billet structure.  How the company is pieced 
+together helps divide chart and statistics.  50% of the IT Department is not certified to work
+on secret equipment.  Knowing billet structure will also help with onboarding new individuals.  
+Sarah just started working for HR, so we know that she will need the Company welcome aboard brief
+as well as the PII Handling certification.
+
+Database Table Ex.
+
+4Personnel ---------> 3Certifications ---------> 2Billet ---------> 1Company Hierarchy ---------> 
+ FName			CISCO			  NOC_Sup		   HQ CIO
+ LName			COMPTIA			  HD_Tech		   INFOSEC	
+ Middle			DAU			  Cust_Serv	   	   IM/KM		
+ Address		ISC2			  PM		   	   HLP_Dsk	
+ HomePhone		GOV			  SCRUM_MSTR	   	   NETOPS		
+ WkPhone		MSSA			  SFTWR_DEV	   	   DEVOPS		
+ Email			
+
+Programming will consist of several database tables to house certification and personnel information.  The
+frontend of the user's GUI will be web based style of entry boxes programmed in c#, while the backend will contain database repositories for information callback.  The certification database will be divided into billet types.  The personnel will be divided by departments.  There will also be a contractor database that lies outside of company parameters.  User will can import information from a .csv file.  Information can also be exported to an excel document for easy reporting and dissemination.  The tracker would require users and information to be input into a database.  Control groups of Job billets combined with training requirements will be applied to indiviuals or sections input into the database.  Statistical information will  be generated that show  retention requirements, deadlines, certificate expirations, and compliancy/ non-compliancy rates.
+
+
+
+I will utilize a standard software development cycle, SDLC.  I will identify all of the requirements that 
+need to be in my application to ensure automation and productivity are at the forefront of it's development.  Then I will define what each of the attributes require and ensure that a time block is designated for product feasibility and feature lockdown.  The next phase of design will ensure that the methods used to 
+generate the application are conducive with expectations and the ability of the coding environment.  This phase will also solidify what each element should appear to the users.  Between coding, testing, and deployment are time blocks set from the defining and design phase to esure a complete product is ready 
+for official release and deployment.
+
+Prioritize primary features
+
+
+
+
+
+
+
+
+
+
